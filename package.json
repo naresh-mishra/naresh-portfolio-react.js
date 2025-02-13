@@ -2,13 +2,13 @@
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
   "description": "Naresh portfolio",
-  "source": "src/index.html",
-  "homepage": "https://naresh-mishra.github.io/naresh-portfolio-react.js/",
+  "source": "index.html",
+  "homepage": "https://naresh-mishra.github.io/naresh-portfolio-reactjs/",
 
 "scripts": {
   "start": "parcel",
-  "build": "parcel build src/index.html --public-url '/naresh-portfolio-react.js/'",
-  "build-gh": "parcel build src/index.html --public-url '/naresh-portfolio-react.js/'",
+  "build": "parcel build index.html --public-url '/naresh-portfolio-reactjs/'",
+  "build-gh": "parcel build index.html --public-url '/naresh-portfolio-reactjs/'",
   "predeploy": "npm run build-gh",
   "deploy": "gh-pages -d dist"
 },
