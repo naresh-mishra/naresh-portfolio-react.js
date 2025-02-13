@@ -1,17 +1,17 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Naresh portfolio",
   "source": "src/index.html",
   "homepage": "https://naresh-mishra.github.io/naresh-portfolio-react.js/",
 
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://naresh-mishra.github.io/naresh-portfolio-react.js'",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "start": "parcel",
+  "build": "parcel build src/index.html --public-url '/naresh-portfolio-react.js/'",
+  "build-gh": "parcel build src/index.html --public-url '/naresh-portfolio-react.js/'",
+  "predeploy": "npm run build-gh",
+  "deploy": "gh-pages -d dist"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
