@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+
 }
 
 div#main {
@@ -37,6 +38,7 @@ section img.background {
   height: 100%;
   left: 50%;
   object-fit: cover;
+  object-position: center top;
   pointer-events: none;
   position: absolute;
   top: 0;
