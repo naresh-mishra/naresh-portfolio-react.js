@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import image from "../images/christopher-gower-m_HRfLhgABo-unsplash.jpg";
+import image from "../images/design-desk.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
